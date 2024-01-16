@@ -1,0 +1,183 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+}
+.main{
+  background-color: #000;
+  
+}
+.initial{
+  width: 100vw;
+  height: clamp( 20vw, 66.7vw, 100vh);
+  background-image:
+  linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 108%),
+  url("../src/matriz_2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.article_10{
+  text-align: center;
+  padding: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.red{
+    color: #e4181e;
+}
+.h2_1{
+  font-size: clamp( 1.5rem, 2vw, 3.5rem);
+  color: #efefef;
+}
+.button_1{
+    padding: 40px;
+}
+.button_1_p{
+    padding: 5px ;
+    border-radius: 5px;
+    background-color: #efefef;
+    font-size: 1rel;
+    color: #D90030;
+    font-weight: 800;
+}
+.article_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.a_1_1{
+    width: clamp( 200px, 360px, 360px);
+    text-align: center;
+    padding: 20px;
+}
+.a_1_2{
+    width: clamp( 200px, 360px, 400px);
+    padding: 20px;
+}
+.a_1_3{
+    width: clamp( 200px, 360px, 400px);
+    text-align: center;
+    padding: 20px;
+}
+.h1{
+    font-size: 1.5rem;
+    color: #fff;
+}
+.p_1{
+    color: #fff;
+}
+.imagine{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.red{
+    color: #D90030;
+}
+.price{
+    background: #181818;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pr_1{
+    width: clamp( 200px, 360px, 400px);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.pr_2{
+    font-size: 1.5rem;
+    color: #fff;
+}
+.pr_3{
+    color: #c0c0c0;
+    padding-top: 10px;
+}
+.pr_3_1{
+    width: 5rel;
+    height: 1px;
+    background: #D90030;
+    position: relative;
+    margin-top: -10px;
+}
+.pr_4{
+    padding-top: 10px;
+    color: #D90030;
+    font-size: 2rem;
+}
+.pr_5{
+    color: #c0c0c0;
+    font-size: 0.8rem;
+}
+.pr_6{
+    width: clamp( 200px, 360px, 400px);
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+.pr_7{
+    padding: 20px;
+}
+.pr_7_1{
+    padding: 2px ;
+    border-radius: 5px;
+    font-size: 1rel;
+    color: #D90030;
+    border-color: #D90030;
+    border-style: solid;
+    border-width: 2px;
+    font-weight: 800;
+}
+.pr_8{
+    text-align: initial;
+    width: clamp( 200px, 360px, 400px);
+}
+.pr_8_1{
+    color: #fff;
+}
+.faq{
+    padding-top:
+    20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.faq_1{
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.faq_l{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.faq_l_1{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.faq_l_2{
+    background: #181818;
+    padding: 10px;
+    width: clamp( 200px, 360px, 400px);
+}
+.faq_l_3{
+  color: #fff;
+}
